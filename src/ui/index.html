@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electron & MySql</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 my-auto p-4">
+                <div class="text-center">
+                    <h2>Formularios de Productos</h2>
+                </div>
+                <form class="card card-body" id="productForm">
+                    <div class="form-group">
+                        <input type="text" id="nombre" placeholder="Nombre de Producto" class="form-control" autofocus>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" id="precio" placeholder="Precio de Producto" class="form-control"
+                            step="any">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="descripcion" rows="5"
+                            placeholder="Descripción del Producto"></textarea>
+                    </div>
+                    <button class="btn btn-primary">Grabar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
